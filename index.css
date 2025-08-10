@@ -63,7 +63,8 @@ form .btn{
     grid-gap: 40px;
     width: 80%;
     margin: 10px auto;
-    padding: 20px;place-items: center;
+    padding: 20px;
+    place-items: center;
 }
 .recepie{
     background-color: #fff;
@@ -99,6 +100,21 @@ form .btn{
    .recepie-details::-webkit-scrollbar{
     width: 10px;
    }
+
+    /* Responsive media screen */
+
+    @media screen  and (max-width:600px){
+       .recepie-details{
+        width: 100%;
+       }
+        
+    }
+
+          @media screen and (min-width: 700px) and (max-width: 1024px) {
+              .recepie-details {
+                  width: 100%;
+              }
+          }
 
    .recepie-details::-webkit-scrollbar-thumb{
     background: #b5b5ba;
